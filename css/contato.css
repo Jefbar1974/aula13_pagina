@@ -1,0 +1,27 @@
+.cabecalho>a:nth-child(2) {
+    background-color: #ff4a57;
+}
+
+.formulario-contato>input,
+.formulario-contato>textarea {
+    display: block;
+    border-radius: 10px;
+    background-color: #3b3d5d;
+    padding: 4px;
+    border: solid white 1px;
+    outline: none;
+    color: white;
+    margin-bottom: 5px;
+    width: 80%;
+    max-width: 80%;
+
+}
+
+.formulario-contato>input::placeholder,
+.formulario-contato>textarea::placeholder {
+    color: white;
+}
+
+.conteudo>iframe {
+    border-radius: 10px;
+}
