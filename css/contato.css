@@ -4,6 +4,7 @@
 
 .formulario-contato>input,
 .formulario-contato>textarea {
+    margin-left: 20px;
     display: block;
     border-radius: 10px;
     background-color: #3b3d5d;
@@ -13,15 +14,19 @@
     color: white;
     margin-bottom: 5px;
     width: 80%;
-    max-width: 80%;
+    max-width: 100%;
+
 
 }
 
 .formulario-contato>input::placeholder,
 .formulario-contato>textarea::placeholder {
     color: white;
+    
 }
 
 .conteudo>iframe {
     border-radius: 10px;
+    
+
 }

@@ -8,9 +8,12 @@ body {
 }
 
 .cabecalho>a {
-text-decoration: none;
-color: white;
-padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 main {
@@ -26,9 +29,21 @@ main {
 }
 
 .conteudo-esquerda {
-    width: 400px;
+    width: 700px;
 }
 
 .conteudo-direita {
+
     width: 400px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    width: 80px;
+    margin-top: 15px;
+    margin-right: 115px;
+    float: right;
+    border-radius: 4px;
 }
